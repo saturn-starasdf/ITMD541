@@ -1,0 +1,7 @@
+:root {
+    --my-color: #cc0000;
+  }
+  
+  div {
+    color: var(--my-color);
+  }
