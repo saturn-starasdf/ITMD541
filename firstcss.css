@@ -1,7 +1,15 @@
 
-  .header {
+  .header{
     text-align: center;
-    background: #a1a703;
+    background: #f1f746;
     color: #0a2df7;
     font-size: 20px;
   }
+
+  .p {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    border: 3px solid #73AD21;
+    color: aliceblue;
+}
+
