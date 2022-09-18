@@ -1,7 +1,11 @@
-:root {
-    --my-color: #cc0000;
-  }
+
   
-  div {
-    color: var(--my-color);
+  
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
   }
