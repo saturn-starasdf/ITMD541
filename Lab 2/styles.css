@@ -1,7 +1,11 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+	display: flex;
+	padding:0 0px 0px 0;
+	justify-content: space-evenly;
+	margin:0;
+    list-style: none;
 }
 
 /* end Flexbox Part 1 */
@@ -10,23 +14,24 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	display: flex;	
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#flex-section2 li {
-
-}
-
-#flex-section2 .item1 {
-
+#flex-section2 .item1 {		
+	flex:1;
 }
 
 #flex-section2 .item2 {
-
+	order :3;
+	flex:1;
 }
 
 #flex-section2 .item3 {
-
+	order :2;
+	flex:1;
 }
 
 /* end Flexbox Part 2 */
@@ -35,12 +40,20 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 }
 
 #flex-section3 .tags ul {
-
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	padding: 0;
+	margin:0;
 }
+
 
 /* end Flexbox Part 3 */
 
