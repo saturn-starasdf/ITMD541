@@ -1,15 +1,17 @@
-.header{
-    text-align: center;
-    background: #f1f746;
+
+
+div[name=header],h1
+{
     color: #0a2df7;
-    font-size: 18px;
+    font-size: 25px;
     padding:1px;
-    
+    margin-left:90px;
   }
+
 
   form{
     margin: 50px auto;
-    width: 400px;
+    width: 900px;
     padding: 8px;
     border: 2px solid darkgreen;
     border-radius: 2em;
@@ -29,4 +31,4 @@
 
   p{text-align: center;
 font-size: large;}
-
+  
