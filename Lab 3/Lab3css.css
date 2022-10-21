@@ -5,9 +5,20 @@
     font-size: 20px;
   }
 
-  .p {
-    font-family: "Times New Roman";
-    font-weight: bold;
-    border: 3px solid #697557;
-    color: aliceblue;
+  .label{
+    width: 500px;
+    display: inline-block;
 }
+
+  .skeleton {
+   
+    background-color: lightcyan;
+    margin: 50px auto;
+    width: 500px;
+    padding: 25px;
+    border: 2px solid darkgreen;
+    border-radius: 2em;
+
+}
+
+
