@@ -1,0 +1,13 @@
+.header{
+    text-align: center;
+    background: #f1f746;
+    color: #0a2df7;
+    font-size: 20px;
+  }
+
+  .p {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    border: 3px solid #697557;
+    color: aliceblue;
+}
