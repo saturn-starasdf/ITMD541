@@ -2,23 +2,31 @@
     text-align: center;
     background: #f1f746;
     color: #0a2df7;
-    font-size: 20px;
+    font-size: 18px;
+    padding:1px;
+    
   }
 
-  .label{
-    width: 500px;
-    display: inline-block;
-}
-
-  .skeleton {
-   
-    background-color: lightcyan;
+  form{
     margin: 50px auto;
-    width: 500px;
-    padding: 25px;
+    width: 400px;
+    padding: 8px;
     border: 2px solid darkgreen;
     border-radius: 2em;
+    background-color: lightcyan;
+  }
+  
+  label{
+    width: 170px;
+    display: inline-block;
+  }
 
-}
+  
+  input[name=Total],input[name="Tip Amount"],input[name="Tip_percent"]
+  {
+    background-color: lightgray;
+  }
 
+  p{text-align: center;
+font-size: large;}
 
