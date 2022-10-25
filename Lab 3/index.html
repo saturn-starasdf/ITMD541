@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -9,7 +8,6 @@
   </head>
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
-   
       <form >
         <div class="header">
             <h1> ITMD 541- Lab 3 -Tip Calculator</h1>
@@ -19,7 +17,7 @@
         </strong></p>
         <br>
         <label>Bill Total:  </label>
-        <input type="number" name="Bill_Total" id="Bill" placeholder="Enter the bill amount" /><br><br>
+        <input type="text" name="Bill" id="Bill"  placeholder="Enter the bill amount" /><br><br>
         
         <label for="Tip">Choose Tip %  </label>
         <input type="range" name="tip" id="tip" min="1" max="100" value="13" />
@@ -29,7 +27,7 @@
         <input type="number"  name="Tip_percent" id="Tip_percent" disabled/><br><br>
 
         <label>Tip Amount: </label>
-        <input type="number" name="Tip Amount" id="Tip Amount" disabled/><br><br>
+        <input type="number" name="Tip_Amount" id="Tip_Amount" disabled/><br><br>
 
         <label>Total Bill with Tip: </label>
         <input type="number" name="Total" id="Total" disabled/><br><br>
@@ -47,5 +45,28 @@
     <footer>
       <p><strong> Designed By Mamata Chabbi</p></strong>
     </footer>
+    <script>
+            const bill = document.getElementById("Bill");
+            const tip = document.getElementById("tip");
+
+            [bill, tip].forEach(function(element) {
+                element.addEventListener("change", function() {
+                    if(bill.value === ''|| isNaN(Number(bill.value))){
+                        console.log("if")
+                        alert("Please enter a valid number")
+                        document.getElementById("Bill").value='';
+                    }
+                    else{
+                        console.log("else")
+                        document.getElementById("Tip_percent").value=Number(tip.value);
+                        document.getElementById("Tip_Amount").value=((Number(tip.value)/100)*(Number(bill.value))).toFixed(2);
+                        document.getElementById("Total").value=(((Number(tip.value)/100)*Number(bill.value))+Number(bill.value)).toFixed(2);
+                    }
+               
+                
+            });
+            });
+        
+        </script>
   </body>
 </html>
