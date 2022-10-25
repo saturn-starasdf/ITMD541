@@ -16,7 +16,6 @@ div[name=header],h1
     border: 2px solid darkgreen;
     border-radius: 2em;
     background-color: lightcyan;
-    
   }
   
   label{
@@ -33,4 +32,37 @@ div[name=header],h1
 
   p{text-align: center;
 font-size: large;}
+
+@media (min-width: 500px) {
+  .frame {
+      margin: 50px auto;
+      font-size:large;
+      font-style: oblique;
+      }
+  }
+  
+  @media (min-width: 800px) {
+  .frame {
+    margin: 50px auto;
+    font-size:medium;
+    font-style: normal;
+    
+  }
+  }
+  
+  @media (min-width: 1000px) {
+  .frame {
+    margin: 50px auto;
+    font-size:small;
+    font-style: oblique;
+  }
+  }
+  
+  @media (min-width: 1500px) {
+  .frame {
+    margin: 50px auto;
+    font-size:smaller;
+    font-style: normal;
+  }
+  }
   
