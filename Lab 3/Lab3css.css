@@ -11,24 +11,58 @@ div[name=header],h1
 
   form{
     margin: 50px auto;
-    width: 900px;
-    padding: 8px;
+    width: 500px;
+    padding: 15px;
     border: 2px solid darkgreen;
     border-radius: 2em;
     background-color: lightcyan;
   }
   
   label{
-    width: 170px;
+    margin-left: 80px;
     display: inline-block;
+    width: 120px;
   }
 
   
-  input[name=Total],input[name="Tip Amount"],input[name="Tip_percent"]
+  input[name=Total],input[name="Tip_Amount"],input[name="Tip_percent"]
   {
     background-color: lightgray;
   }
 
   p{text-align: center;
 font-size: large;}
+
+@media (min-width: 500px) {
+  .frame {
+      margin: 50px auto;
+      font-size:large;
+      font-style: oblique;
+      }
+  }
+  
+  @media (min-width: 800px) {
+  .frame {
+    margin: 50px auto;
+    font-size:medium;
+    font-style: normal;
+    
+  }
+  }
+  
+  @media (min-width: 1000px) {
+  .frame {
+    margin: 50px auto;
+    font-size:small;
+    font-style: oblique;
+  }
+  }
+  
+  @media (min-width: 1500px) {
+  .frame {
+    margin: 50px auto;
+    font-size:smaller;
+    font-style: normal;
+  }
+  }
   
